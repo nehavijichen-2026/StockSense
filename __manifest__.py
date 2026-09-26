@@ -5,6 +5,7 @@
     'category': 'Inventory/Warehouse',
     'depends': ['base', 'web'],
     'data': [
+        'security/ir.model.access.csv',
         'views/product_views.xml',
         'views/dashboard_views.xml',
         'views/menu_views.xml',
